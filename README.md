@@ -4,12 +4,12 @@
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Variable](#variable) |
+| 1   | [Variables](#variables) |
 | 2   | [Booleans](#booleans) |  
-| 3   | [Operator](#Operator) |  
-| 4   | [String](#string) |  
-| 4   | [Conditional](#conditional) |  
-| 6   | [Function](#function) |  
+| 3   | [Operators](#Operators) |  
+| 4   | [Strings](#strings) |  
+| 4   | [Conditionals](#conditionals) |  
+| 6   | [Functions](#functions) |  
 
 ### B. JavaScript DOM
 
@@ -206,7 +206,7 @@ console.log(numOne <= numTwo, numTwo <= numThree);
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### STRING
+### STRINGS
 <hr/>
 
 ### 1. Create a Javascript string
@@ -282,7 +282,7 @@ console.log(text === 'hello world');
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### FUNCTION
+### FUNCTIONS
 <hr/>
 
 ### 1. Function declaration
