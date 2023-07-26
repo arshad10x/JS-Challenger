@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-## Javascript Basic
+## A. Javascript Basic
 <hr/>
 
 ### VARIABLES
@@ -308,3 +308,8 @@ const func = function () {
 const result = func();
 console.log(result);
 ```
+<hr/>
+
+## B. Javascript DOM
+
+### 1. Select the button element on the page
