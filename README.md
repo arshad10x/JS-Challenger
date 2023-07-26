@@ -78,6 +78,108 @@ console.log(num);
 - Here, we declare the variable isTrue. But, it has no value yet. Assign a boolean value to it and run the code.
 
 ```javascript
-const num = 5;
-console.log(num);
+let isTrue;
+isTrue = true;
+console.log(isTrue);
+```
+
+### 2. Convert Number to Boolean
+
+- Here, we declare the variable num and assign it the value 5. We also declare the variable bool which we assign the boolean representation of num.
+Extend the code such that the console.log() statement logs false.
+
+
+```javascript
+let num = 5;
+num = 0;
+const bool = Boolean(bool);
+console.log(bool);
+```
+<hr/>
+
+### Operators
+<hr/>
+
+### 1. Comparison operators - Equal
+
+- In the console.log() statement below we use the Equal operator to check whether numOne and numTwo have the same value. Change the code so that the console.log() statement logs true.
+
+```javascript
+const numOne = 5;
+const numTwo = 5;
+console.log(numOne == numTwo);
+```
+
+### 2. Comparison operators - Not Equal
+
+- In the console.log() statement below we use the Not Equal operator to check whether numOne and numTwo have different values. Change the code so that the console.log() statement logs true.
+```javascript
+const numOne = 5;
+const numTwo = 6;
+console.log(numOne != numTwo);
+```
+
+
+### 3. Comparison operators - Greater than
+
+
+- In the console.log() statement below we use the Greater Than operator to check whether the value of numOne is greater than the value of numTwo. Change the code so that the console.log() statement logs true.
+
+```javascript
+onst numOne = 5;
+const numTwo = 4;
+console.log(numOne > numTwo);
+```
+
+
+### 4. Comparison operators - Less than
+
+
+- In the console.log() statement below we use the Less Than operator to check whether the value of numOne is less than the value of numTwo. Change the code so that the console.log() statement logs true.
+```javascript
+const numOne = 1;
+const numTwo = 2;
+console.log(numOne < numTwo);
+```
+
+
+### 5. Comparison operators - Greater than or equal
+
+
+- In the console.log() statement below we use the Greater Than Or Equal operator to check whether the value of numOne is greater than or equal the value of numTwo. It also checks whether the value of numTwo is greater than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
+
+```javascript
+const numOne = 3;
+const numTwo = 2;
+const numThree = 2;
+console.log(numOne >= numTwo, numTwo >= numThree);
+```
+
+
+
+### 6. Comparison operators - Less than or equal
+
+
+- In the console.log() statement below we use the Less Than Or Equal operator to check whether the value of numOne is less than or equal the value of numTwo. It also checks whether the value of numTwo is less than or equal the value of numThree. Change the code so that both expressions in the console.log() statement logs true.
+
+
+```javascript
+const numOne = 1;
+const numTwo = 1;
+const numThree = 2;
+console.log(numOne <= numTwo, numTwo <= numThree);
+```
+<hr/>
+
+### String
+<hr/>
+
+### 1. Comparison operators - Equal
+
+- In the console.log() statement below we use the Equal operator to check whether numOne and numTwo have the same value. Change the code so that the console.log() statement logs true.
+
+```javascript
+const numOne = 5;
+const numTwo = 5;
+console.log(numOne == numTwo);
 ```
