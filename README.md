@@ -1,7 +1,11 @@
 # JS Challenger Solution
 
 ### Table of Contents
+<div style="display:flex">
+
                                        
+<div style="border:1px solid white">
+
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [Variable](#variable) |
@@ -10,7 +14,26 @@
 | 4   | [String](#string) |  
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |  
-                                                                           
+
+</div>
+
+<div style="border:1px solid white">
+
+| No. | Questions|
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [Variable](#variable) |
+| 2   | [Booleans](#booleans) |  
+| 3   | [Operator](#Operator) |  
+| 4   | [String](#string) |  
+| 4   | [Conditional](#conditional) |  
+| 6   | [Function](#function) |  
+
+</div>
+ 
+</div>
+
+
+
 
 ## A. JavaScript Basic
 <hr/>
