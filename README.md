@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-## Table of Content
+## Table of Contents
 
 ### A. JavaScript Basic
 
