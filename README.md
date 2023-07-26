@@ -8,6 +8,10 @@
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [Variable](#variable) |
 | 2   | [Booleans](#booleans) |  
+| 2   | [Operator](#Operator) |  
+| 2   | [String](#string) |  
+| 2   | [Conditional](#conditional) |  
+| 2   | [Function](#function) |  
                                                                            
 
 ## A. Javascript Basic
