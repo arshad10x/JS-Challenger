@@ -1,9 +1,6 @@
 # JS Challenger Solution
 
-### Table of Contents
-
-                                       
-<div style="border:1px solid white">
+### A. JavaScript Basic
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -14,7 +11,7 @@
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |  
 
-
+### B. JavaScript DOM
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +22,6 @@
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |  
 
-</div>
  
 
 
@@ -208,6 +204,8 @@ console.log(numOne <= numTwo, numTwo <= numThree);
 ```
 <hr/>
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ### STRING
 <hr/>
 
@@ -249,6 +247,8 @@ console.log(combined);
 
 <hr/>
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ### CONDITIONALS
 <hr/>
 
@@ -279,6 +279,8 @@ if (text === 'hello') {
 console.log(text === 'hello world');
 ```
 <hr/>
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ### FUNCTION
 <hr/>
@@ -344,6 +346,8 @@ const result = func();
 console.log(result);
 ```
 <hr/>
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ## B. Javascript DOM
 
