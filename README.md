@@ -1,5 +1,7 @@
 # JS Challenger Solution
 
+## Table of Content
+
 ### A. JavaScript Basic
 
 | No. | Questions|
