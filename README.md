@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-## Variable
+## A. Variable
 
 1. ### Reassign a value to a variable
 
