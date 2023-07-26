@@ -1,7 +1,6 @@
 # JS Challenger Solution
 
 ### Table of Contents
-<div style="display:flex">
 
                                        
 <div style="border:1px solid white">
@@ -15,9 +14,7 @@
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |  
 
-</div>
 
-<div style="dsiplay:flex;border:1px solid white">
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +27,6 @@
 
 </div>
  
-</div>
 
 
 
