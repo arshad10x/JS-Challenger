@@ -2,13 +2,12 @@
 
 ### Table of Contents
                                        
-| A. JavaScript Basic
-|
+| No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [Variable](#variable) |
 | 2   | [Booleans](#booleans) |  
 | 3   | [Operator](#Operator) |  
-| 4  | [String](#string) |  
+| 4   | [String](#string) |  
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |  
                                                                            
