@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-### Variable
+### VARIABLES
 <hr/>
 
 ### 1. Reassign a value to a variable
@@ -70,7 +70,7 @@ console.log(num);
 ```
 <hr/>
 
-### Booleans
+### BOOLEANS
 <hr/>
 
 ### 1. Assign boolean to a variable
@@ -97,7 +97,7 @@ console.log(bool);
 ```
 <hr/>
 
-### Operators
+### OPERATORS
 <hr/>
 
 ### 1. Comparison operators - Equal
@@ -171,7 +171,7 @@ console.log(numOne <= numTwo, numTwo <= numThree);
 ```
 <hr/>
 
-### String
+### STRING
 <hr/>
 
 ### 1. Create a Javascript string
@@ -204,8 +204,105 @@ console.log(textOne, textTwo, textThree);
 Change the code below so that the value of res is Hello World
 
 ```javascript
-const textOne = 'welcome to, ';
-const textTwo = "JSChallenger ";
-const textThree = `Repo`;
-console.log(textOne, textTwo, textThree);
+const textOne = 'Hello';
+const textTwo = 'World';
+const combined = textOne + ' ' + textTwo;
+console.log(combined);
+```
+
+<hr/>
+
+### CONDITIONALS
+<hr/>
+
+### 1. if statement - satisfy condition
+
+
+- The code will assign the variable num a new value 1. But it will only run if the condition is met.
+Adjust the condition such that the code inside the curly braces will execute and the console.log() statement logs true.
+
+```javascript
+let num = 0;
+if (1 < 2) {
+   num = 1;
+}
+console.log(num === 1);
+```
+
+### 2. if statement - add missing condition
+
+- Time to practice what we've learnt so far. In the code below, the if...statement will assign a new value to the variable text. But only if its condition is met. Currently, the condition is missing.
+Add any condition that will be satisfied such that the console.log() statement logs true.
+
+```javascript
+let text = 'hello';
+if (text === 'hello') {
+   text = text + ' world';
+}
+console.log(text === 'hello world');
+```
+<hr/>
+
+### FUNCTION
+<hr/>
+
+### 1. Function declaration
+
+- In this exercise we create a function called func. Then we call the function and assign its return value to the variable result. To solve this exercise, simply have the console.log() statement log the words hello world.
+
+
+```javascript
+function func() {
+   return 'hello world';
+};
+const result = func();
+console.log(result);
+```
+
+### 2. Function expression
+
+- In the code below, we introduced a small mistake when calling the function func. Find the mistake and run the code to see if the words hello world are correctly logged.
+
+
+
+```javascript
+function func() {
+   return 'hello world';
+};
+const result = func();
+console.log(result);
+```
+
+### 3. Correctly return value from function (1)
+
+- In this exercise, we create a function func. Then, we call func and assign its return value to the variable result.
+When you run the code like this, you see that the value undefined is logged. This is the current return value of func because we do not explicitly define a return value ourselves.
+Let func return the value of the variable text.
+
+
+```javascript
+const func = function() {
+   let text = 'hello';
+   text = text + ' world';
+   return text;
+};
+const result = func();
+console.log(result);
+```
+
+### 4. Correctly return value from function (2)
+
+- In this exercise func declares a variable text with the value hello. Then it returns the value of text. After that, it assigns a new value hello world to the variable text and returns the new value.
+But, when you run the code, you see that only the initial value of text (hello) is logged.
+Adjust the code so that the final value of text is logged.
+
+
+```javascript
+const func = function() {
+   let text = 'hello';
+   text = text + ' world';
+   return text;
+};
+const result = func();
+console.log(result);
 ```
