@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-| 1   | [Reassign a value to a variable](#reassign-a-value-to-a-variable)                                         
+| 1   | [Variable](#variable)                                         
                                                                                                            
 
 ## A. Javascript Basic
@@ -18,7 +18,7 @@ let num = 1;
 num = 2;
 console.log(num);
 ```
-**[⬆ Back to Top](#table-of-contents)**
+
 ### 2. Assign a value to a variable
 - Here, we declare the variable num. But, it has no value yet. Assign a value to it and run the code.
 ```javascript
@@ -76,6 +76,7 @@ num = 2;
 console.log(num);
 ```
 <hr/>
+**[⬆ Back to Top](#table-of-contents)**
 
 ### BOOLEANS
 <hr/>
