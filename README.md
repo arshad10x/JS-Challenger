@@ -2,7 +2,8 @@
 
 ### Table of Contents
 
-| 1   | [Variable](#variable)                                         
+| 1   | [Variable](#variable) 
+| 2   | [Booleans](#booleans)                                         
                                                                                                            
 
 ## A. Javascript Basic
@@ -76,6 +77,7 @@ num = 2;
 console.log(num);
 ```
 <hr/>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### BOOLEANS
@@ -104,6 +106,8 @@ const bool = Boolean(bool);
 console.log(bool);
 ```
 <hr/>
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ### OPERATORS
 <hr/>
