@@ -1,5 +1,10 @@
 # JS Challenger Solution
 
+### Table of Contents
+
+[1. Reassign a value to a variable](#Reassign a value to a variable)
+
+
 ## A. Javascript Basic
 <hr/>
 
@@ -13,7 +18,7 @@ let num = 1;
 num = 2;
 console.log(num);
 ```
-
+**[⬆ Back to Top](#table-of-contents)**
 ### 2. Assign a value to a variable
 - Here, we declare the variable num. But, it has no value yet. Assign a value to it and run the code.
 ```javascript
@@ -303,7 +308,7 @@ Adjust the code so that the final value of text is logged.
 const func = function () {
    let text = 'hello';
    text = text + ' world';
-   return text;
+   return text;b
 };
 const result = func();
 console.log(result);
