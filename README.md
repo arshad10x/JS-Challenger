@@ -2,8 +2,8 @@
 
 ### Table of Contents
 
-[Reassign a value to a variable](#reassign a value to a variable)
-
+| 1   | [Reassign a value to a variable](#reassign-a-value-to-a-variable)                                         
+                                                                                                           
 
 ## A. Javascript Basic
 <hr/>
