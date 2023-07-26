@@ -2,6 +2,7 @@
 
 ## Javascript Basic
 <hr/>
+
 ### VARIABLES
 
 ### 1. Reassign a value to a variable
