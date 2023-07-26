@@ -1,7 +1,8 @@
 # JS Challenger Solution
 
-### VARIABLES
+## Javascript Basic
 <hr/>
+### VARIABLES
 
 ### 1. Reassign a value to a variable
 - Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
@@ -298,7 +299,7 @@ Adjust the code so that the final value of text is logged.
 
 
 ```javascript
-const func = function() {
+const func = function () {
    let text = 'hello';
    text = text + ' world';
    return text;
