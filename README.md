@@ -1,20 +1,19 @@
 # JS Challenger Solution
 
 ### Table of Contents
-
-| 1   | [Variable](#variable) |
-| 2   | [Booleans](#booleans) |                                       
-                              | No. | Questions                                                                                                                                                         |
+                                       
+| No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+A. JavaScript Basic
 | 1   | [Variable](#variable) |
 | 2   | [Booleans](#booleans) |  
-| 2   | [Operator](#Operator) |  
-| 2   | [String](#string) |  
-| 2   | [Conditional](#conditional) |  
-| 2   | [Function](#function) |  
+| 3   | [Operator](#Operator) |  
+| 4  | [String](#string) |  
+| 4   | [Conditional](#conditional) |  
+| 6   | [Function](#function) |  
                                                                            
 
-## A. Javascript Basic
+## A. JavaScript Basic
 <hr/>
 
 ### VARIABLES
