@@ -2,9 +2,9 @@
 
 ### Table of Contents
                                        
-| No. | Questions|
+| A. JavaScript Basic
+|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-A. JavaScript Basic
 | 1   | [Variable](#variable) |
 | 2   | [Booleans](#booleans) |  
 | 3   | [Operator](#Operator) |  
