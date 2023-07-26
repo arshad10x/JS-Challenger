@@ -2,8 +2,8 @@
 
 ### Table of Contents
 
-| 1   | [Variable](#variable) 
-| 2   | [Booleans](#booleans)                                         
+| 1   | [Variable](#variable) |
+| 2   | [Booleans](#booleans) |                                       
                                                                                                            
 
 ## A. Javascript Basic
