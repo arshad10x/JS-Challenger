@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-[1. Reassign a value to a variable](#Reassign a value to a variable)
+[Reassign a value to a variable](#Reassign a value to a variable)
 
 
 ## A. Javascript Basic
@@ -10,7 +10,7 @@
 
 ### VARIABLES
 
-### 1. Reassign a value to a variable
+1. ### Reassign a value to a variable
 - Assign a new value to the variable num. The code will not work the way it is. Find the mistake and fix it. Execute the corrected code.
 
 ```javascript
