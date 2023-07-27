@@ -26,9 +26,6 @@
 
  
 
-
-
-
 ## A. JavaScript Basic
 <hr/>
 
