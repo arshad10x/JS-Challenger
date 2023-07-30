@@ -18,8 +18,8 @@
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | [DOM Selector methods](#DOM-Selector-methods) |
-| 2   | [Booleans](#booleans) |  
-| 3   | [Operator](#Operator) |  
+| 2   | [Events and user interaction](#Events-and-user-interaction) |  
+| 3   | [DOM manipulation](#DOM-manipulation) |  
 | 4   | [String](#string) |  
 | 4   | [Conditional](#conditional) |  
 | 6   | [Function](#function) |   
@@ -447,7 +447,7 @@ const element = document.getElementById('element');
   element.addEventListener("mouseover", changeText);
 ```
 
-### 2 Cursor enters and leaves element
+### 3 Cursor enters and leaves element
 
 - In this scenario we want the color of the circle to change depending on the type of cursor movement. Use the function toggleColor to turn the circle orange when the cursor moves onto it. Reuse the same function to turn it black when the cursor leaves it.
 The tricky part is that you have to call toggleColor with different values for the parameter isEntering. Verify that your code is working by hovering the circle with the mouse cursor and leaving it again.
@@ -461,4 +461,26 @@ The tricky part is that you have to call toggleColor with different values for t
   
   element.addEventListener('mouseover', () => toggleColor(true));
   element.addEventListener('mouseleave', () => toggleColor(false));
+```
+
+<hr/>
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### DOM manipulation
+
+### 1. Remove element from the DOM
+
+- You may not see it in the example UI, but underneath the red circle is a green circle. Extend the function removeRedCircle to remove the circle with id red from the DOM.
+Make sure that you really remove the element instead of just hiding it. Confirm that your code works by clicking the button.
+
+```javascript
+
+ const button = document.querySelector('#button');
+  
+  const removeRedCircle = () => {
+    const redCircle = document.querySelector('#red');
+    redCircle.parentNode.removeChild(redCircle);
+  };
+
 ```
