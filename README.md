@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-## Table of Contents
+<!-- ## Table of Contents
 
 ### A. JavaScript Basic
 
@@ -22,7 +22,7 @@
 | 3   | [Operator](#Operator) |  
 | 4   | [String](#string) |  
 | 4   | [Conditional](#conditional) |  
-| 6   | [Function](#function) |  
+| 6   | [Function](#function) |   -->
 
  
 
