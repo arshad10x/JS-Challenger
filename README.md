@@ -370,7 +370,7 @@ Hint: Make use of the unique id of the button element.
 ```
 **[⬆ Back to Top](#table-of-contents)**
 
-## 2 Query descendent HTML elements
+### 2 Query descendent HTML elements
 
 
 - Here, the existing code expects the variables 'buttonElem' and 'inputElem' to represent the button and input elements in the example UI.
@@ -412,6 +412,8 @@ Once you have completed the code below, verify it by hovering over the list item
 **[⬆ Back to Top](#table-of-contents)**
 
 ## Events and user interaction
+
+<hr/>
 
 ### 1. Execute function on button click
 
