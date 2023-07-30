@@ -550,7 +550,7 @@ Confirm your code by clicking the button!
 
 ## Recursive function
 
-### Stop and restart the moving button
+### 1. Stop and restart the moving button
 
 - This is a good exercise to learn about recursive functions. The function move in the code below moves the button 1px to the left or the right. It is recursive because it calls itself again and again. This keeps the button moving.
 Extend the JavaScript code. Once you click the button, it should stop moving. When you click it again, it should move again.
