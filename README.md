@@ -351,6 +351,7 @@ console.log(result);
 ## B. JavaScript DOM
 
 ### DOM Selector methods
+
 ### 1. Select the button element on the page
 
 - In this scenario, the existing code adds an eventListener for a click event on a variable buttonElem. It expects buttonElem to be the button element in the example UI. But, that element is not selected yet.
@@ -404,4 +405,44 @@ Once you have completed the code below, verify it by hovering over the list item
   if(listItems.length > 1) {
     listItems.forEach(item => item.addEventListener('mouseover', handleHover));
   }
+```
+
+<hr/>
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Events and user interaction
+
+### 1. Execute function on button click
+
+- The Javascript function handleText fills the input field with the words Hello World. But, there is no code to execute this function.
+Complete the existing code below such that the function is called when the button is clicked. Verify by clicking the button.
+
+```javascript
+
+ 
+  const button = document.getElementById('button');
+  const input = document.getElementById('input');
+  
+  const handleClick = () => {
+    input.value = 'Hello World';
+  };
+  
+  button.addEventListener('click', handleClick);
+
+```
+
+### 2 Execute function on button click
+
+- The Javascript function changeText changes the text inside the circle. But again, there is no code to execute this function.
+Complete the existing code below such that the function is called when the cursor moves onto the circle. Verify that your code works by hovering over the circle.
+
+```javascript
+const element = document.getElementById('element');
+  
+  const changeText = () => {
+    element.innerText = 'Thanks!';
+  };
+  
+  element.addEventListener("mouseover", changeText);
 ```
