@@ -17,7 +17,7 @@
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Variables](#variables) |
+| 1   | [Select the button element on the page](#Select-the-button-element-on-the-page) |
 | 2   | [Booleans](#booleans) |  
 | 3   | [Operator](#Operator) |  
 | 4   | [String](#string) |  
