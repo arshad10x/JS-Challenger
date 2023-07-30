@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
-<!-- ## Table of Contents
+ ## Table of Contents
 
 ### A. JavaScript Basic
 
@@ -17,12 +17,12 @@
 
 | No. | Questions|
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Select the button element on the page](#Select-the-button-element-on-the-page) |
+| 1   | [DOM Selector methods](#DOM-Selector-methods) |
 | 2   | [Booleans](#booleans) |  
 | 3   | [Operator](#Operator) |  
 | 4   | [String](#string) |  
 | 4   | [Conditional](#conditional) |  
-| 6   | [Function](#function) |   -->
+| 6   | [Function](#function) |   
 
  
 
@@ -350,6 +350,7 @@ console.log(result);
 
 ## B. JavaScript DOM
 
+### DOM Selector methods
 ### 1. Select the button element on the page
 
 - In this scenario, the existing code adds an eventListener for a click event on a variable buttonElem. It expects buttonElem to be the button element in the example UI. But, that element is not selected yet.
@@ -384,4 +385,23 @@ const buttonElem = document.querySelector("#wrapper button");
     const oldText = inputElem.value;
       return inputElem.value = oldText === "ON" ? "OFF" : "ON";
   });
+```
+**[⬆ Back to Top](#table-of-contents)**
+
+### 3. Select multiple HTML elements
+
+- In this scenario, we are looking for a list of elements gathered in one variable - rather than only one element.
+Assign the list items in the view to the variable 'listItems' by using an appropriate selector method.
+Once you have completed the code below, verify it by hovering over the list items until all items have the value 'ON'.
+
+```javascript
+ const listItems = document.querySelectorAll("#list li");
+  
+  const handleHover = (event) => {
+    return event.target.innerText = 'ON';
+  };
+  
+  if(listItems.length > 1) {
+    listItems.forEach(item => item.addEventListener('mouseover', handleHover));
+  }
 ```
