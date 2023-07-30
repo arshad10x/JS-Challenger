@@ -20,8 +20,8 @@
 | 1   | [DOM Selector methods](#DOM-Selector-methods) |
 | 2   | [Events and user interaction](#Events-and-user-interaction) |  
 | 3   | [DOM manipulation](#DOM-manipulation) |  
-| 4   | [String](#string) |  
-| 4   | [Conditional](#conditional) |  
+| 4   | [DOM fundamentals](#DOM-fundamentals) |  
+| 4   | [Recursive function](#Recursive-function) |  
 | 6   | [Function](#function) |   
 
  
@@ -504,4 +504,76 @@ Verify that your code works by clicking the button.
   button.addEventListener('click', changeInput);
   
   document.querySelector('#wrapper input').setAttribute('id', 'inputEl');
+```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+<hr/>
+
+### DOM fundamentals
+
+### 1. Check the checkbox
+
+- Your first JavaScript DOM exercise. Let's start simple.
+Extend the JavaScript code below to interact with the displayed HTML elements. Once you click the button, the checkbox should be checked.
+Confirm your code by clicking the button!
+
+```javascript
+
+   const button = document.getElementById('button');
+  button.addEventListener('click', () => {
+    const checkbox = document.getElementById('checkbox');
+    checkbox.checked = true;
+  });
+
+```
+
+### 1. Get full-name from inputs
+
+- Extend the JavaScript code below to interact with the displayed HTML elements.
+This time we are looking for the full name. When the button is clicked, combine the names of the first two input fields. Insert the full name in the third input field.
+Hint: Check if your code still works if you change the first or last name.
+Confirm your code by clicking the button!
+
+```javascript
+
+ 
+  const button = document.getElementById('button');
+  button.addEventListener('click' , () => {
+    const firstName = document.getElementById('firstName');
+    const lastName = document.getElementById('lastName');
+    const fullName = document.getElementById('fullName');
+    fullName.value = firstName.value + ' ' + lastName.value;
+  });
+```
+<hr/>
+
+## Recursive function
+
+### Stop and restart the moving button
+
+- This is a good exercise to learn about recursive functions. The function move in the code below moves the button 1px to the left or the right. It is recursive because it calls itself again and again. This keeps the button moving.
+Extend the JavaScript code. Once you click the button, it should stop moving. When you click it again, it should move again.
+Confirm your code by clicking the button twice.
+
+```javascript
+
+  const button = document.getElementById('button');
+  let stopped = false;
+   
+  function move(isReturning) {
+   const width = button.parentNode.clientWidth;
+   const left = parseInt(button.style.left , 10) || 0;
+   if (!stopped) {
+      button.style.left = (isReturning ? left - 1 : left + 1) + 'px';
+      setTimeout(() => move ((isReturning && left > 0) || left === width - button.clientWidth), 10);
+   };
+  };
+   
+  move();
+   
+  button.addEventListener('click', () => {
+    stopped = !stopped;
+    move();
+  });
 ```
