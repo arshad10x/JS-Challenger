@@ -370,8 +370,7 @@ Hint: Make use of the unique id of the button element.
 ```
 **[⬆ Back to Top](#table-of-contents)**
 
-### 2 Query descendent HTML elements
-
+### 2. Query descendent HTML elements
 
 - Here, the existing code expects the variables 'buttonElem' and 'inputElem' to represent the button and input elements in the example UI.
 Assign the respective elements to the variables.
@@ -486,7 +485,7 @@ Make sure that you really remove the element instead of just hiding it. Confirm 
   };
 
 ```
-### Change id of HTML element
+### 2. Change id of HTML element
 
 - In this scenario the existing code listens to a click on the button. When the button is clicked, the function changeInput is triggered. changeInput tries to select an input field with id inputEl. But, the existing input field does not have this id. Add some Javascript code to add the id inputEl to the existing input field.
 Verify that your code works by clicking the button.
