@@ -1,6 +1,6 @@
 # JS Challenger Solution
 
- ## Table of Contents
+ <!-- ## Table of Contents
 
 ### A. JavaScript Basic
 
@@ -10,7 +10,7 @@
 | 2   | [Booleans](#booleans) |  
 | 3   | [Operators](#Operators) |  
 | 4   | [Strings](#strings) |  
-| 4   | [Conditionals](#conditionals) |  
+| 5   | [Conditionals](#conditionals) |  
 | 6   | [Functions](#functions) |  
 
 ### B. JavaScript DOM
@@ -21,8 +21,8 @@
 | 2   | [Events and user interaction](#Events-and-user-interaction) |  
 | 3   | [DOM manipulation](#DOM-manipulation) |  
 | 4   | [DOM fundamentals](#DOM-fundamentals) |  
-| 4   | [Recursive function](#Recursive-function) |  
-| 6   | [Function](#function) |   
+| 5   | [Recursive function](#Recursive-function) |  
+   -->
 
  
 
@@ -577,3 +577,4 @@ Confirm your code by clicking the button twice.
     move();
   });
 ```
+**[⬆ Back to Top](#table-of-contents)**
