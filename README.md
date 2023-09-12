@@ -1,5 +1,6 @@
 <!-- ![logo](https://github.com/arshad10x/JS-Challenger/assets/76579075/972111e0-152f-4f66-829b-36e154b764d3) -->
-[![logo](https://github.com/arshad10x/JS-Challenger/assets/76579075/972111e0-152f-4f66-829b-36e154b764d3.png)](https://www.jschallenger.com/)
+# <span style="color: yellow;">[JS Challenger](https://www.jschallenger.com/)</span>
+
 
 
  <!-- ## Table of Contents
