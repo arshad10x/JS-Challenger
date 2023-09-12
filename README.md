@@ -1,5 +1,5 @@
 <!-- ![logo](https://github.com/arshad10x/JS-Challenger/assets/76579075/972111e0-152f-4f66-829b-36e154b764d3) -->
-[![logo](https://github.com/arshad10x/JS-Challenger/assets/76579075/972111e0-152f-4f66-829b-36e154b764d3)](https://www.jschallenger.com/)
+[![logo](https://raw.githubusercontent.com/arshad10x/JS-Challenger/main/assets/76579075/972111e0-152f-4f66-829b-36e154b764d3.png)](https://www.jschallenger.com/)
 
 
  <!-- ## Table of Contents
